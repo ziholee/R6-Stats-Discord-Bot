@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.dv8tion:JDA:5.0.0-alpha.10'
+    implementation 'org.slf4j:slf4j-simple:1.7.32' // SLF4J 바인더 추가
+}
